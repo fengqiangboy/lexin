@@ -5,6 +5,7 @@ import hashlib
 import time
 import datetime
 import sys
+import random
 
 
 
@@ -12,7 +13,7 @@ class LexinSport:
     def __init__(self, username, password, step):
         self.username = username
         self.password = password
-        self.step = step
+        self.step = random.randint(20000,40000)
 
     # 登录
     def login(self):
