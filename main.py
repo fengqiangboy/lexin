@@ -13,7 +13,7 @@ class LexinSport:
     def __init__(self, username, password, step):
         self.username = username
         self.password = password
-        self.step = random.randint(20000,40000)
+        self.step = random.randint(28000,50000)
 
     # 登录
     def login(self):
